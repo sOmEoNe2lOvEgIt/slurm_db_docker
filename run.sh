@@ -1,1 +1,1 @@
-docker run --hostname="slurm_db_daemon" --network slurm-network -v /home/slurm_db_daemon_docker/etc/slurm_conf:/etc/slurm slurm_db_daemon
+docker run --name="slurm_db_daemon" --hostname="slurm_db_daemon" --network slurm-network -v /home/slurm_db_daemon_docker/etc/slurm_conf:/etc/slurm slurm_db_daemon

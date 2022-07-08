@@ -23,4 +23,5 @@ RUN rm /tmp/*
 RUN touch /etc/hostname
 RUN echo "slurm_db_daemon" > /etc/hostname
 
-CMD [ "slurmdbd", "-D" ] 
+COPY /etc/script.sh /script.sh
+CMD [ "/script.sh" ]
