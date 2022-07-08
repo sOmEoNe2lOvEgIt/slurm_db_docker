@@ -1,0 +1,1 @@
+docker run --hostname="slurm_db_daemon" -v /home/slurm_db_daemon_docker/etc/slurm_conf:/etc/slurm slurm_db_daemon
